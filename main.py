@@ -12,7 +12,7 @@ else:
             "\n--------- Character Count -------"
             )
 
-#print(f"Found {get_num_words(file_path)} total words")
+
       sorted_dict = sorted(make_dict_list(book_path), reverse=True, key=sort_on, )
       for item in sorted_dict: # removes special char and spaces
             if item["char"].isalpha():
